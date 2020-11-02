@@ -1,0 +1,7 @@
+C:\Users\nann8059\source\repos\SOLID\SOLID\Geometry\bin\Debug\Geometry.exe.config
+C:\Users\nann8059\source\repos\SOLID\SOLID\Geometry\bin\Debug\Geometry.exe
+C:\Users\nann8059\source\repos\SOLID\SOLID\Geometry\bin\Debug\Geometry.pdb
+C:\Users\nann8059\source\repos\SOLID\SOLID\Geometry\obj\Debug\Geometry.csprojAssemblyReference.cache
+C:\Users\nann8059\source\repos\SOLID\SOLID\Geometry\obj\Debug\Geometry.csproj.CoreCompileInputs.cache
+C:\Users\nann8059\source\repos\SOLID\SOLID\Geometry\obj\Debug\Geometry.exe
+C:\Users\nann8059\source\repos\SOLID\SOLID\Geometry\obj\Debug\Geometry.pdb

@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    class Square : Quadrilateral
+    class Rectangle : Quadrilateral
     {
         public override double CalculateArea()
         {
-            return Math.Pow(SideA, 2);
+            return SideA * SideB;
         }
-        public Square(double side)
+        public Rectangle(double sideA, double sideB)
         {
-            SideA = side;
-            SideB = side;
-            SideC = side;
-            SideD = side;
+            SideA = sideA;
+            SideB = sideB;
+            SideC = sideA;
+            SideD = sideB;
         }
     }
 }
