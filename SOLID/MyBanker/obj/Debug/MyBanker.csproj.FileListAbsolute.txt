@@ -1,0 +1,7 @@
+C:\Users\nann8059\source\repos\SOLID\SOLID\MyBanker\bin\Debug\MyBanker.exe.config
+C:\Users\nann8059\source\repos\SOLID\SOLID\MyBanker\bin\Debug\MyBanker.exe
+C:\Users\nann8059\source\repos\SOLID\SOLID\MyBanker\bin\Debug\MyBanker.pdb
+C:\Users\nann8059\source\repos\SOLID\SOLID\MyBanker\obj\Debug\MyBanker.csprojAssemblyReference.cache
+C:\Users\nann8059\source\repos\SOLID\SOLID\MyBanker\obj\Debug\MyBanker.csproj.CoreCompileInputs.cache
+C:\Users\nann8059\source\repos\SOLID\SOLID\MyBanker\obj\Debug\MyBanker.exe
+C:\Users\nann8059\source\repos\SOLID\SOLID\MyBanker\obj\Debug\MyBanker.pdb
