@@ -11,6 +11,6 @@ namespace MyBanker
         /// <summary>
         /// Don't really know how this work. But here it is anyway.
         /// </summary>
-        double CreditLimit { get; set }
+        double CreditLimit { get; set; }
     }
 }

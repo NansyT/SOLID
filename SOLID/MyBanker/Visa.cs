@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyBanker
 {
-    class Visa : Card, IExpire, IMonthlyLimit
+    class Visa : Card, IExpire, IMonthlyLimit, ICreditLimit
     {
         public Visa(string name)
         {
@@ -15,6 +15,9 @@ namespace MyBanker
             string[] prefixes = new string[] { "4026", "417500", "4508", "4844", "4913", "4917" };
             CardPrefix = prefixes[new Random().Next(0, prefixes.Length)];
             CardNumber = NumGenerator.GenerateNumber(CardPrefix, 16);
+            ExpiryDate = DateTime.Today.AddYears(5);
+            CreditLimit = 20000;
+            MonthlyLimit = 25000;
         }
 
         private DateTime expiryDate;
@@ -27,21 +30,21 @@ namespace MyBanker
         public double CreditLimit
         {
             get { return creditLimit; }
-            set { creditLimit = 20000; }
+            set { creditLimit = value; }
         }
         private double monthlyLimit;
         public double MonthlyLimit
         {
             get { return monthlyLimit; }
-            set { monthlyLimit = 25000; }
+            set { monthlyLimit = value; }
         }
 
         public override string ToString()
         {
             return base.ToString()
-                + "Kortets udløbsdato: " + expiryDate.ToString("MM/yy") + "\n"
-                + "Kredit grænse: " + creditLimit + "\n"
-                + "Månedlig grænse: " + monthlyLimit + "\n";
+                + "Kortets udløbsdato: " + ExpiryDate.ToString("MM/yy") + "\n"
+                + "Kredit grænse: " + CreditLimit + "\n"
+                + "Månedlig grænse: " + MonthlyLimit + "\n";
         }
     }
 }

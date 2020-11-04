@@ -15,6 +15,10 @@ namespace MyBanker
             string[] prefixes = new string[] { "51", "52", "53", "54", "55" };
             CardPrefix = prefixes[new Random().Next(0, prefixes.Length)];
             CardNumber = NumGenerator.GenerateNumber(CardPrefix, 16);
+            ExpiryDate = DateTime.Today.AddYears(5);
+            CreditLimit = 40000;
+            MonthlyLimit = 30000;
+            DailyLimit = 5000;
         }
         private DateTime expiryDate;
         public DateTime ExpiryDate
@@ -46,10 +50,10 @@ namespace MyBanker
         public override string ToString()
         {
             return base.ToString()
-                + "Kortets udløbsdato: " + expiryDate.ToString("MM/yy") + "\n"
-                + "Kredit grænse: " + creditLimit + "\n"
-                + "Månedlig grænse: " + monthlyLimit + "\n"
-                + "Daglig grænse: " + dailyLimit + "\n";
+                + "Kortets udløbsdato: " + ExpiryDate.ToString("MM/yy") + "\n"
+                + "Kredit grænse: " + CreditLimit + "\n"
+                + "Månedlig grænse: " + MonthlyLimit + "\n"
+                + "Daglig grænse: " + DailyLimit + "\n";
         }
     }
 }

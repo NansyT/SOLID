@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MyBanker
@@ -17,10 +18,12 @@ namespace MyBanker
         public static string GenerateNumber(string prefix, int digits)
         {
             string genNumber = prefix;
-            while (genNumber.Length < digits)
+            for (; genNumber.Length < digits;)
             {
+                Thread.Sleep(25);
                 genNumber += new Random().Next(0, 10).ToString();
             }
+            
             return genNumber;
         }
     }

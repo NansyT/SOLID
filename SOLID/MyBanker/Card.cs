@@ -46,10 +46,10 @@ namespace MyBanker
 
         public override string ToString()
         {
-            return "Kort holder: " + fullName + "\n" +
-                   "Kort type: " + cardType + "\n" +
-                   "Kort nummer: " + cardNumber + "\n" +
-                   "Konto nummer: " + accountnumber + "\n";
+            return "Kort holder: " + FullName + "\n" +
+                   "Kort type: " + CardType + "\n" +
+                   "Kort nummer: " + CardNumber + "\n" +
+                   "Konto nummer: " + AccountNumber + "\n";
         }
     }
 }
