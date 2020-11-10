@@ -9,18 +9,14 @@ namespace BirdsFlyingAroundApp
     /// </summary>
     class Kiwi : Bird
     {
-        public Kiwi(double longitude, double latitude) : base(longitude, latitude)
+        public override string Draw()
         {
+            throw new NotImplementedException();
         }
 
-        public override void Draw()
+        public override string SetLocation(double longitude, double latitude)
         {
-            
-        }
-
-        public override void SetLocation(double logitude, double latitude)
-        {
-            
+            throw new NotImplementedException();
         }
     }
 }

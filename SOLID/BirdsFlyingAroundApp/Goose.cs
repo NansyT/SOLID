@@ -7,33 +7,25 @@ namespace BirdsFlyingAroundApp
     class Goose : Bird, IFly
     {
         private string weapon;
-
-        public Goose(string weapon, double longitude, double latitude, double altitude) : base(longitude, latitude)
-        {
-            Weapon = weapon;
-            SetAltitude(altitude);
-        }
-
         public string Weapon
         {
             get { return weapon; }
             set { weapon = value; }
         }
 
-
-        public override void Draw()
+        public override string Draw()
         {
-            
+            throw new NotImplementedException();
         }
 
-        public override void SetLocation(double logitude, double latitude)
+        public string SetAltitude(double altitude)
         {
-            
+            throw new NotImplementedException();
         }
 
-        public void SetAltitude(double altitude)
+        public override string SetLocation(double longitude, double latitude)
         {
-            
+            throw new NotImplementedException();
         }
     }
 }
