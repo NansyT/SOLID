@@ -13,19 +13,23 @@ namespace BirdsFlyingAroundApp
             set { weapon = value; }
         }
 
+        public Goose(string weapon)
+        {
+            Weapon = weapon;
+        }
         public override string Draw()
         {
-            throw new NotImplementedException();
+            return "Drawing goose with a " + Weapon + " for weapon. Just pretend it's there...";
         }
 
         public string SetAltitude(double altitude)
         {
-            throw new NotImplementedException();
+            return "Goose's altitude is :" + altitude;
         }
 
         public override string SetLocation(double longitude, double latitude)
         {
-            throw new NotImplementedException();
+            return "The Goose is located at: " + longitude + " " + latitude;
         }
     }
 }

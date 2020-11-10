@@ -11,12 +11,12 @@ namespace BirdsFlyingAroundApp
     {
         public override string Draw()
         {
-            throw new NotImplementedException();
+            return "Drawing kiwi bird. Just pretend it's there...";
         }
 
         public override string SetLocation(double longitude, double latitude)
         {
-            throw new NotImplementedException();
+            return "Kiwi is located at: " + longitude + " " + latitude;
         }
     }
 }
