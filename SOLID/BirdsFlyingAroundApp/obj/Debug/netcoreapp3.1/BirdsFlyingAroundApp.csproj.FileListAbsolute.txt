@@ -1,0 +1,13 @@
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\bin\Debug\netcoreapp3.1\BirdsFlyingAroundApp.exe
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\bin\Debug\netcoreapp3.1\BirdsFlyingAroundApp.deps.json
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\bin\Debug\netcoreapp3.1\BirdsFlyingAroundApp.runtimeconfig.json
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\bin\Debug\netcoreapp3.1\BirdsFlyingAroundApp.runtimeconfig.dev.json
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\bin\Debug\netcoreapp3.1\BirdsFlyingAroundApp.dll
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\bin\Debug\netcoreapp3.1\BirdsFlyingAroundApp.pdb
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\obj\Debug\netcoreapp3.1\BirdsFlyingAroundApp.csprojAssemblyReference.cache
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\obj\Debug\netcoreapp3.1\BirdsFlyingAroundApp.AssemblyInfoInputs.cache
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\obj\Debug\netcoreapp3.1\BirdsFlyingAroundApp.AssemblyInfo.cs
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\obj\Debug\netcoreapp3.1\BirdsFlyingAroundApp.csproj.CoreCompileInputs.cache
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\obj\Debug\netcoreapp3.1\BirdsFlyingAroundApp.dll
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\obj\Debug\netcoreapp3.1\BirdsFlyingAroundApp.pdb
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\BirdsFlyingAroundApp\obj\Debug\netcoreapp3.1\BirdsFlyingAroundApp.genruntimeconfig.cache

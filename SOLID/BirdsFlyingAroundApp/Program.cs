@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace BirdsFlyingAroundApp
 {
@@ -6,11 +7,20 @@ namespace BirdsFlyingAroundApp
     {
         static void Main(string[] args)
         {
-            Kiwi kiwi = new Kiwi();
-            Goose goose = new Goose("knife");
+            List<Bird> birds = new List<Bird>() {
+                new Kiwi(),
+                new Goose("chainsaw")
+            };
 
-            Console.WriteLine(kiwi.Draw() + "\n" + kiwi.SetLocation(3424, 342523));
-            Console.WriteLine(goose.Draw() + "\n" + goose.SetLocation(38742, 23874) + "\n" + goose.SetAltitude(387));
+            foreach (Bird bird in birds)
+            {
+                Console.WriteLine(bird.Draw());
+                Console.WriteLine(bird.SetLocation(200, 420));
+                if (bird is IFly)
+                {
+                    Console.WriteLine(((IFly)bird).SetAltitude(48));
+                }
+            }
         }
     }
 }

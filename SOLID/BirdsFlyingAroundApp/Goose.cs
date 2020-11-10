@@ -29,7 +29,7 @@ namespace BirdsFlyingAroundApp
 
         public override string SetLocation(double longitude, double latitude)
         {
-            return "The Goose is located at: " + longitude + " " + latitude;
+            return "The Goose is located at : " + longitude + " " + latitude;
         }
     }
 }
