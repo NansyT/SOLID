@@ -41,7 +41,10 @@ namespace CoffeeMachine
             MaxWater = 1000;
             WaterHeated = false;
         }
-
+        /// <summary>
+        /// Heats the water in the machine. Checks if the machine is turned on. (You can't heat without power)
+        /// </summary>
+        /// <returns></returns>
         public string HeatWater()
         {
             if (IsON == true)
@@ -61,7 +64,10 @@ namespace CoffeeMachine
                 return "You look at the coffee machine... It is not turned on. You can't heat water if the machine isn't turned on...";
             }
         }
-
+        /// <summary>
+        /// Used to turn machine on and off
+        /// </summary>
+        /// <returns></returns>
         public string ChangeState()
         {
             if (IsON)
