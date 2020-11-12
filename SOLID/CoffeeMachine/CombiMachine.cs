@@ -25,7 +25,10 @@ namespace CoffeeMachine
         {
             MaxTea = 200;
         }
-
+        /// <summary>
+        /// Brews tea for you. Checks if you have enough water and tea leaves.
+        /// </summary>
+        /// <returns></returns>
         public string BrewTea()
         {
             if (IsON == true && WaterHeated == true)
@@ -53,7 +56,11 @@ namespace CoffeeMachine
                 }
             }
         }
-
+        /// <summary>
+        /// Fills machine with tea leaves. Checks if it's full and if you pour too many into it
+        /// </summary>
+        /// <param name="newBeans">How many beans you want to fill with</param>
+        /// <returns></returns>
         public string FillTea(float newTea)
         {
             if (TeaAmount < MaxTea)

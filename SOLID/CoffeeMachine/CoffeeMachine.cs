@@ -30,7 +30,10 @@ namespace CoffeeMachine
             CoffeeBeansMax = 200;
         }
 
-
+        /// <summary>
+        /// Brews coffee for you. Checks if you have enough water and beans.
+        /// </summary>
+        /// <returns></returns>
         public string BrewCoffee()
         {
             if (IsON == true && WaterHeated == true)
@@ -58,7 +61,11 @@ namespace CoffeeMachine
                 }
             }
         }
-
+        /// <summary>
+        /// Fills machine with coffee beans. Checks if it's full and if you pour too many into it
+        /// </summary>
+        /// <param name="newBeans">How many beans you want to fill with</param>
+        /// <returns></returns>
         public string FillCoffeeBeans(float newBeans)
         {
             if (CoffeeBeansAmount < CoffeeBeansMax)
