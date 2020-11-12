@@ -62,7 +62,7 @@ namespace CoffeeMachine
             }
         }
         /// <summary>
-        /// Fills machine with coffee beans. Checks if it's full and if your pour too many into it
+        /// Fills machine with coffee beans. Checks if it's full and if you pour too many into it
         /// </summary>
         /// <param name="newBeans">How many beans you want to fill with</param>
         /// <returns></returns>
