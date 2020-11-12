@@ -59,7 +59,7 @@ namespace CoffeeMachine
         /// <summary>
         /// Fills machine with tea leaves. Checks if it's full and if you pour too many into it
         /// </summary>
-        /// <param name="newBeans">How many beans you want to fill with</param>
+        /// <param name="newBeans">How many leaves you want to fill with</param>
         /// <returns></returns>
         public string FillTea(float newTea)
         {
