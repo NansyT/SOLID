@@ -5,7 +5,7 @@ using System.Threading;
 
 namespace CoffeeMachine
 {
-    class CoffeeMachine : BrewingMachine, IBrewCoffee, IFillCoffeeBeans
+    class CoffeeMachine : BrewingMachine, IBrewCoffee, IFillCoffeeBeans, IBrewEspresso
     {
         private float coffeeBeansAmount;
 
@@ -50,7 +50,7 @@ namespace CoffeeMachine
             {
                 if (IsON == false)
                 {
-                    return "You look at the coffee machine... It is in fact turned off. You feel stupid for trying to brew coffee on a macine that's turned off.";
+                    return "You look at the machine... It is in fact turned off. You feel stupid for trying to brew coffee on a macine that's turned off.";
                 }
                 else
                 {
@@ -71,12 +71,39 @@ namespace CoffeeMachine
                 }
                 else
                 {
-                    return "You poured coffee beans into the coffee machine successfully";
+                    return "You poured coffee beans into the machine successfully";
                 }
             }
             else
             {
                 return "The machine is already filled to the brim. You don't want to overfill it do you?";
+            }
+        }
+
+        public string BrewEspresso()
+        {
+            if (IsON == true && WaterHeated == true)
+            {
+
+                if (Water >= 200 && coffeeBeansAmount >= 100)
+                {
+                    return "I brewed a cup of espresso just for you.";
+                }
+                else
+                {
+                    return "Not enough water or coffee beans so I can't brew espresso for you.";
+                }
+            }
+            else
+            {
+                if (IsON == false)
+                {
+                    return "You look at the machine... It is in fact turned off. You feel stupid for trying to brew espresso on a macine that's turned off.";
+                }
+                else
+                {
+                    return "Your water isn't hot... Do you want ice espresso? Because that's what you'll get";
+                }
             }
         }
     }

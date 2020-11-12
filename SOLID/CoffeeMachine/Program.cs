@@ -19,7 +19,8 @@ namespace CoffeeMachine
                     "Press 's' to turn machine on or off. \n" +
                     "Press 'h' to heat you water \n" +
                     "Press 'b' to brew coffee. \n" +
-                    "Press 'n' to brew tea\n" +
+                    "Press 'n' to brew tea \n" +
+                    "Press 'e' to brew espresso (you only get one cup tho)\n" +
                     "Press 'x' to exit.");
                 choice = Console.ReadLine();
 
@@ -42,15 +43,18 @@ namespace CoffeeMachine
                         break;
                     case "s":
                         Console.WriteLine(machine.ChangeState());
-                            break;
+                        break;
+                    case "h":
+                        Console.WriteLine(machine.HeatWater());
+                        break;
                     case "b":
                         Console.WriteLine(machine.BrewCoffee());
                         break;
                     case "n":
                         Console.WriteLine(machine.BrewTea());
                         break;
-                    case "h":
-                        Console.WriteLine(machine.HeatWater());
+                    case "e":
+                        Console.WriteLine(machine.BrewEspresso());
                         break;
                     case "x":
                         Console.WriteLine("Turning off...");
