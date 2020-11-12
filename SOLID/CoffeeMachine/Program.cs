@@ -8,16 +8,18 @@ namespace CoffeeMachine
         {
             string choice = "";
             float amount = 0;
-            CoffeeMachine machine = new CoffeeMachine();
+            CombiMachine machine = new CombiMachine();
             while (choice != "x")
             {
                 Console.Clear();
                 Console.WriteLine("Hello, choose an option: \n" +
-                    "Press 'w' to fill water on the coffee machine \n" +
-                    "Press 'c' to fill coffee beans on the coffee machine \n" +
+                    "Press 'w' to fill water on the machine \n" +
+                    "Press 'c' to fill coffee beans on the machine \n" +
+                    "Press 't' to fill tea leaves on the machine \n" +
                     "Press 's' to turn machine on or off. \n" +
                     "Press 'h' to heat you water \n" +
-                    "Press 'b' to brew a coffee. \n" +
+                    "Press 'b' to brew coffee. \n" +
+                    "Press 'n' to brew tea\n" +
                     "Press 'x' to exit.");
                 choice = Console.ReadLine();
 
@@ -33,11 +35,19 @@ namespace CoffeeMachine
                         amount = float.Parse(Console.ReadLine());
                         Console.WriteLine(machine.FillCoffeeBeans(amount));
                         break;
+                    case "t":
+                        Console.WriteLine("Please enter the amount of tea leaves you want to pour into the machine");
+                        amount = float.Parse(Console.ReadLine());
+                        Console.WriteLine(machine.FillTea(amount));
+                        break;
                     case "s":
                         Console.WriteLine(machine.ChangeState());
                             break;
                     case "b":
                         Console.WriteLine(machine.BrewCoffee());
+                        break;
+                    case "n":
+                        Console.WriteLine(machine.BrewTea());
                         break;
                     case "h":
                         Console.WriteLine(machine.HeatWater());

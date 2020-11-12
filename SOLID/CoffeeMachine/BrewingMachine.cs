@@ -67,12 +67,12 @@ namespace CoffeeMachine
             if (IsON)
             {
                 IsON = false;
-                return "You look at the coffee machine... It is turned off";
+                return "You look at the machine... It is turned off";
             }
             else
             {
                 IsON = true;
-                return "You look at the coffee machine... It is turned on";
+                return "You look at the machine... It is turned on";
             }
         }
 
@@ -88,7 +88,7 @@ namespace CoffeeMachine
                 }
                 else
                 {
-                    return "You poured water into the coffee machine successfully";
+                    return "You poured water into the machine successfully";
                 }
             }
             else
