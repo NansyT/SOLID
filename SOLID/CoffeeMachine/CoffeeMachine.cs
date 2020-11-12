@@ -86,7 +86,10 @@ namespace CoffeeMachine
                 return "The machine is already filled to the brim. You don't want to overfill it do you?";
             }
         }
-
+        /// <summary>
+        /// Brews espresso for you. Checks if you have enough water and beans.
+        /// </summary>
+        /// <returns></returns>
         public string BrewEspresso()
         {
             if (IsON == true && WaterHeated == true)
