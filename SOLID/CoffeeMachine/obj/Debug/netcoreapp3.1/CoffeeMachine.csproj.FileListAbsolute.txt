@@ -1,0 +1,13 @@
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\bin\Debug\netcoreapp3.1\CoffeeMachine.exe
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\bin\Debug\netcoreapp3.1\CoffeeMachine.deps.json
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\bin\Debug\netcoreapp3.1\CoffeeMachine.runtimeconfig.json
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\bin\Debug\netcoreapp3.1\CoffeeMachine.runtimeconfig.dev.json
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\bin\Debug\netcoreapp3.1\CoffeeMachine.dll
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\bin\Debug\netcoreapp3.1\CoffeeMachine.pdb
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\obj\Debug\netcoreapp3.1\CoffeeMachine.csprojAssemblyReference.cache
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\obj\Debug\netcoreapp3.1\CoffeeMachine.AssemblyInfoInputs.cache
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\obj\Debug\netcoreapp3.1\CoffeeMachine.AssemblyInfo.cs
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\obj\Debug\netcoreapp3.1\CoffeeMachine.csproj.CoreCompileInputs.cache
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\obj\Debug\netcoreapp3.1\CoffeeMachine.dll
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\obj\Debug\netcoreapp3.1\CoffeeMachine.pdb
+C:\Users\Nanna\Documents\Github\SOLID\SOLID\CoffeeMachine\obj\Debug\netcoreapp3.1\CoffeeMachine.genruntimeconfig.cache
